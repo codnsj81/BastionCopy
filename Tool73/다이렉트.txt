@@ -1,0 +1,8 @@
+
+
+
+장치와 관련된 객체들은 Com객체.
+Component Object Model
+
+
+LPDIRECT3D9 : 여러가지 장치들을 준비시키기 위한 기능의 함수들이 구현되어 있다.

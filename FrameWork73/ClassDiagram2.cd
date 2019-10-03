@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CCollisionMgr" Collapsed="true">
+    <Position X="35.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAEAAAAAAAAACBACAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>CollisionMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEffectFactory&lt;T&gt;" Collapsed="true">
+    <Position X="39.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>EffectFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFactory&lt;T&gt;" Collapsed="true">
+    <Position X="41" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CKeyMgr" Collapsed="true">
+    <Position X="35.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEAAAAAAAAAQAACACAQABABAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>KeyMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMouse" Collapsed="true">
+    <Position X="39.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CObjMgr" Collapsed="true">
+    <Position X="35.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IARAgAAAAAQAAQAABAAAAAAAECBAQAAAIBBAEBAAAAY=</HashCode>
+      <FileName>ObjMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRenderMgr" Collapsed="true">
+    <Position X="37.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAABAAAAAFAAAAQAABABAAAAAABBAAAAAAAQ=</HashCode>
+      <FileName>RenderMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSceneMgr" Collapsed="true">
+    <Position X="39.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAQiAAAAAAQAAHABAAAAAABKAABAJAAQ=</HashCode>
+      <FileName>SceneMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSoundMgr" Collapsed="true">
+    <Position X="41" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAAAAAQAAQgAAIQQAQQABiBIAMAAAAAAMgACCA0=</HashCode>
+      <FileName>SoundMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTextureMgr" Collapsed="true">
+    <Position X="35.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAgAgAAQAABABAAAAAAAAAKhAAAAQ=</HashCode>
+      <FileName>TextureMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTimeMgr" Collapsed="true">
+    <Position X="37.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ATAAABAACAEAAAABAAAAAQAABABAAgAAAABACBAAAAQ=</HashCode>
+      <FileName>TimeMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUIMgr" Collapsed="true">
+    <Position X="39.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCABAAAAAAAQAAAAAAQQACBABAAAAAABAAABAAAAQ=</HashCode>
+      <FileName>UIMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTexture" Collapsed="true">
+    <Position X="9.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEAAAAAAAAAAAAIAAAAAAAAAAAAAAAhAAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMultiTexture" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAAAAAAAAAAAAAABAAAAAAAAAAAAhAJAAA=</HashCode>
+      <FileName>MultiTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSingleTexture" Collapsed="true">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAKAgAAAAAAAAACAAAAAAAAAAAAAAAAAhAAAAA=</HashCode>
+      <FileName>SingleTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDevice" Collapsed="true">
+    <Position X="37.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCgAgAQACAIEAAAAAAAAQAABAhAAQoBAAEAAFAAiAQ=</HashCode>
+      <FileName>Device.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainGame" Collapsed="true">
+    <Position X="37.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABAQBAAACAAAAgAAAAAAIAIBAAABAAAAA=</HashCode>
+      <FileName>MainGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameObject" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMQAIAAAAEAAwRAAAACAEAAAAEIAAEAAABCCIBAAAEA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBackGround" Collapsed="true">
+    <Position X="26.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABAQAAICAEAAAACACQCAAACBQAIBAAAAA=</HashCode>
+      <FileName>BackGround.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayer" Collapsed="true">
+    <Position X="28.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYAAAKCAYJBi0AAEMACiAgQZIGkACABAFCQABAGAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayerBullet" Collapsed="true">
+    <Position X="31" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAABIAAAgQAAQEIIAAAAAAAAAAAAABAQABCAACA=</HashCode>
+      <FileName>PlayerBullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayerHit" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEYAAAAAIAAAARAgAWAAAABAAAAAAAAggBAQAhAAAAA=</HashCode>
+      <FileName>PlayerHit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonster2Bullet" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQYAAAAAIACAgQAAQEAAAAAAAAAAAAAAABAQIBCAAAA=</HashCode>
+      <FileName>Monster2Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonster" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonster1" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAADAgBBAAQgAAEAAAAAQAAAQAABAABAQIBCAAAA=</HashCode>
+      <FileName>Monster1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonster2" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAACgABBAAwAAQEAAAAAQAAAYAAAAABAQABCAAAA=</HashCode>
+      <FileName>Monster2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBoss" Collapsed="true">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAICAAAAAAQAAAEAAAAAQAAAIAAAAABAQABCAAAA=</HashCode>
+      <FileName>Boss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CObstacle" Collapsed="true">
+    <Position X="33.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAQAIABABAQABQAAAAQEAAACAAACAQBQAAlAQAwA=</HashCode>
+      <FileName>Obstacle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CFond" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAABAQAAAAAAAAAAAAAQAAAAEBAAABAAAAA=</HashCode>
+      <FileName>Fond.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGun" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAgAAAABAQAAAAAAAAAAAAAAAAAAABQAABAABAA=</HashCode>
+      <FileName>Gun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHammer" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAgAAACBAQAAAAAAAAAAAAAQAAAAABAAABAAAAA=</HashCode>
+      <FileName>Hammer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMouseUI" Collapsed="true">
+    <Position X="22" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAAAAAAAAQQAAAQAAAAAAACABAAAAABAAABAAAAA=</HashCode>
+      <FileName>MouseUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNarrMgr" Collapsed="true">
+    <Position X="41" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAAAASAAAECAAQEABABAAAAAABBAAJAAQAQ=</HashCode>
+      <FileName>NarrMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUI" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAARAAAAAAAAAAQAAAAAAAABABABAAAAA=</HashCode>
+      <FileName>UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COriginUI" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAABAAQACAEEAAAgAAAAAAAAAABAACBAAAAA=</HashCode>
+      <FileName>OriginUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainLogo" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAACAAQAAAAAAAAAAAgAAAAAAIBABABAAAAA=</HashCode>
+      <FileName>MainLogo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMenuPan" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQEBAAAAAAACQAAAAAAgQCAAAEAAAAAABABABggAAA=</HashCode>
+      <FileName>MenuPan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CParticle" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAYAAAAAAAEAAQAAQAAAAAAAAAAAAAAAABAAABACAAA=</HashCode>
+      <FileName>Particle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEffect" Collapsed="true">
+    <Position X="24.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAAAQAAAAAAAAQAAAAEAAAAABAAABAAAAA=</HashCode>
+      <FileName>Effect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CScene" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAQAAAAAQAAAAAAAAAAAAAAAAAAABAAABAAAAg=</HashCode>
+      <FileName>Scene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLogo" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAQAAQAAAQAAAgAAAAAAAEAAABBAAFAAAIE=</HashCode>
+      <FileName>Logo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStage" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAEAAAAQAABAAAAAAAAAAAAAAAEDAAABAAAAA=</HashCode>
+      <FileName>Stage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyMenu" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAQAABAAAAAAAAAAAAAAAABBAgBAAAAA=</HashCode>
+      <FileName>MyMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBridge" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAgAAAAAAAwAAAAAAAAAAAAAAAAAAARAAgBAAAAA=</HashCode>
+      <FileName>Bridge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEffectBridge" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAgAAAAAAAAAAAAAAACBAAABAAAAA=</HashCode>
+      <FileName>EffectBridge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEffectBuff" Collapsed="true">
+    <Position X="8.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAgAYABAQAACAAAAAAAAAAAABAAABAAIAA=</HashCode>
+      <FileName>EffectBuff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

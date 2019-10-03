@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainFrame">
+      <UniqueIdentifier>{812c920e-c521-4d08-9922-b90465cd02e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MainView">
+      <UniqueIdentifier>{aca5bcc5-ae57-4db7-85d1-de3918a238dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager">
+      <UniqueIdentifier>{817ed2b4-bc88-4bad-9559-1fd66515e548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\00.Device">
+      <UniqueIdentifier>{1710133a-dc41-46f1-8416-285131aaa9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\01.Texture">
+      <UniqueIdentifier>{daf1ea9c-abf1-4aad-aba6-63b93831ea6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\01.Texture\01.SingleTexture">
+      <UniqueIdentifier>{e5535ddc-7eed-4a44-98c2-158855ed1e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Manager\01.Texture\02.MultiTexture">
+      <UniqueIdentifier>{a1df9353-2175-41d6-b722-0436345e7927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{96632e8e-a7fc-435b-ac2e-700fa2de75b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="99.Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99.Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="03.GameObject">
+      <UniqueIdentifier>{eea69780-aa6a-4053-894b-a8141266973f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\00.BackGround">
+      <UniqueIdentifier>{28748a0a-1b51-4af6-a5e5-a6a3f42102ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\01.Object">
+      <UniqueIdentifier>{df2edf5d-dcec-4237-9e08-42bbfb78a271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.GameObject\02.Monster">
+      <UniqueIdentifier>{09aa9bcc-20ee-4992-aeaa-d3e4a919eff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog">
+      <UniqueIdentifier>{1030bf0e-fe1b-48a9-bcaa-45471d0f5f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\03.Tool">
+      <UniqueIdentifier>{987d8c04-c769-4117-80a3-fd331507f4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\03.Tool\00.UnitTool">
+      <UniqueIdentifier>{e3caa3b1-4284-4dba-9005-18b5f0a1f7a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\03.Tool\01.MapTool">
+      <UniqueIdentifier>{0159d119-a944-4817-a55e-69df5675ac7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\03.Tool\01.MapTool\TILETool">
+      <UniqueIdentifier>{8a3f4407-d7b2-4385-8808-87e8f81247a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\03.Tool\01.MapTool\ObjectTool">
+      <UniqueIdentifier>{1678e0ca-ff27-4729-9eb5-5a406c36a49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\03.Tool\01.MapTool\GroundTool">
+      <UniqueIdentifier>{3df4c67f-908f-429c-91d8-a1e7365c9f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\03.Tool\02.EventTool">
+      <UniqueIdentifier>{66d1fe4c-8549-4c42-98e2-cedc4051f67a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\PathFinder">
+      <UniqueIdentifier>{84dcf709-be96-4140-b0c8-d3ed04b10cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\01.MyForm">
+      <UniqueIdentifier>{3647aa59-f8e3-47c7-ad9b-9e4229b1e4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\02.MiniView">
+      <UniqueIdentifier>{66c384f4-25c8-42af-b183-41d714fbc429}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool73View.cpp">
+      <Filter>01.MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>02.Manager\00.Device</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>02.Manager\01.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>02.Manager\01.Texture\01.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>02.Manager\01.Texture\02.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>02.Manager\01.Texture\02.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool73.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool73Doc.cpp">
+      <Filter>99.Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>03.GameObject\00.BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Obstacle.cpp">
+      <Filter>03.GameObject\01.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>03.GameObject\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTool.cpp">
+      <Filter>04.Dialog\03.Tool\00.UnitTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>04.Dialog\03.Tool\01.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MySheet.cpp">
+      <Filter>04.Dialog\03.Tool\01.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="TileTool.cpp">
+      <Filter>04.Dialog\03.Tool\01.MapTool\TILETool</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectTool.cpp">
+      <Filter>04.Dialog\03.Tool\01.MapTool\ObjectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTool.cpp">
+      <Filter>04.Dialog\03.Tool\02.EventTool</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFind.cpp">
+      <Filter>04.Dialog\PathFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>04.Dialog\01.MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>04.Dialog\02.MiniView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool73View.h">
+      <Filter>01.MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>02.Manager\00.Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>02.Manager\01.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>02.Manager\01.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>02.Manager\01.Texture\01.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>02.Manager\01.Texture\02.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool73.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool73Doc.h">
+      <Filter>99.Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>03.GameObject\00.BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Obstacle.h">
+      <Filter>03.GameObject\01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>03.GameObject\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTool.h">
+      <Filter>04.Dialog\03.Tool\00.UnitTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>04.Dialog\03.Tool\01.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MySheet.h">
+      <Filter>04.Dialog\03.Tool\01.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="TileTool.h">
+      <Filter>04.Dialog\03.Tool\01.MapTool\TILETool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTool.h">
+      <Filter>04.Dialog\03.Tool\01.MapTool\ObjectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTool.h">
+      <Filter>04.Dialog\03.Tool\02.EventTool</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFind.h">
+      <Filter>04.Dialog\PathFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>04.Dialog\01.MyForm</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>04.Dialog\02.MiniView</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool73.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool73Doc.ico">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>99.Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool73.rc">
+      <Filter>99.Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool73.rc2">
+      <Filter>99.Default\리소스 파일</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="다이렉트.txt" />
+  </ItemGroup>
+</Project>
